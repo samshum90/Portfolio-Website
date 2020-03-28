@@ -1,20 +1,7 @@
-// 
-// const navButtons = document.querySelectorAll(".topnav li");
-// const containers = document.querySelectorAll("main > div"); //get the immediate children of the main tag
-//
-// //scroll to correct part on click of nav buttons
-// navButtons.forEach((navButton, i) => {
-//   navButton.addEventListener("click", () => {
-//     let pos = containers[i].getBoundingClientRect().top - 10;
-//     window.scrollBy({
-//       top: pos,
-//       behavior: "smooth"
-//     });
-//   });
-// });
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+
+// When the user scrolls the page, execute myHeaderFunction
+window.onscroll = function() {myHeaderFunction()};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
@@ -23,7 +10,7 @@ var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function myHeaderFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
     // navbar.classList.add("solid-nav")
@@ -34,4 +21,18 @@ function myFunction() {
 }
 
 
-// transparent to solid nav bar
+
+// Get the Element
+var prodes = document.getElementsByClassName("pro-des");
+var box = document.getElementsByClassName("pro-box");
+
+// when the user mouseovers box excecute Function
+// box.onmouseover = function() {mouseOver()};
+
+
+box.onmouseover = function() {
+  prodes.classList.add("pro-des-hidden");
+}
+box.onmouseout = function() {
+  prodes.classList.remove("pro-des-hidden");
+}
