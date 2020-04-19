@@ -16,6 +16,8 @@ function myFunction() {
   }
 };
 
+
+
 // project Box animations
 document.addEventListener('DOMContentLoaded', () =>{
 
@@ -87,13 +89,22 @@ document.addEventListener('DOMContentLoaded', () =>{
   projectFive.addEventListener("mouseover", () => {
     covidAppGif.src = ("images/COVID_app.gif");
     covidAppDes.classList.add("mouseover-left");
-    // petShopDes.classList.remove("pro-des");
     projectFive.style.zIndex = "100";
   });
   projectFive.addEventListener("mouseout", () => {
     covidAppGif.src = ("images/COVID_app.png");
     covidAppDes.classList.remove("mouseover-left");
-    // petShopDes.classList.add("pro-des")
     projectFive.style.zIndex = "0";
   });
-});
+  //Responsive navbar
+  const icon = document.querySelector("#icon")
+
+  icon.addEventListener("click", () => {
+      var nav = document.getElementById("topnav");
+      if (nav.className === "nav") {
+        nav.className += " responsive";
+      } else {
+        nav.className = "nav";
+      }
+    })
+  })

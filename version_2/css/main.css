@@ -5,7 +5,10 @@
   font-weight: 300;
   box-sizing: border-box;
   text-decoration: none;
-  color: var(--white)
+  color: var(--white);
+}
+
+body{
 }
 
 html {
@@ -80,6 +83,7 @@ html {
 .about ul li {
   margin-top: 10px;
   margin-left: -30px;
+  text-align: center;
 }
 
 .contact-container {
@@ -92,7 +96,6 @@ html {
 
 .contact h2 {
   text-align: center;
-  padding-right: 20px;
   padding-bottom: 5px;
 
 }
