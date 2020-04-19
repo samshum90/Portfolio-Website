@@ -6,9 +6,10 @@
   name="author" content="Samuel Shum"
   name="description" content="Portfolio website to show potential employers">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/project_box.css">
-  <meta name='viewport'
-      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <link rel="stylesheet" type="text/css" href="css/project.css">
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <!--8c778ac2fd-->
   <script src="https://kit.fontawesome.com/8c778ac2fd.js" crossorigin="anonymous"></script>
@@ -34,7 +35,7 @@
           </div>
         </div>
       </div>
-      
+
 <div class="pro-banner" id="projects">
   <h2>Projects</h2>
 </div>
@@ -42,27 +43,131 @@
 
 <div class="pro-container">
 
-  <div class="pro-box">
+  <div class="pro-box" id="project1">
     <div class="box">
     <a href="https://github.com/samshum90/pet_shop_homework" target="_blank">
       <h3>Pet Shop</h3>
-        <img id="Pet-shop-gif" src="images/Pet_shop.png" />
+        <img id="Pet-shop-gif" src="images/Pet_shop.png" alt="Image of pet shop project"/>
     </img>
   </div>
     <div class="pro-des" id="Pet-shop-des">
       <p>
-        "this is where I put my description of my software when I have built one"
-      </p>
+        This is my first homework assignment at Code Clan, where we create tests which relate to the functioning of a pet shop.
+        This was used to practise test development methodology using the ruby gem minitest.</p><br>
+      <p>Technologies used:</p>
       <ul>
-        <li>this is</li>
-        <li> a list of what skills</li>
-        <li> I gained from </li>
-        <li> from this project</li>
+        <li>Ruby</li>
+        <li>Gem</li>
+        <li> MiniTest</li>
       </ul>
     </div>
   </a>
 </div>
 <!--End of first project-->
+
+  <div class="pro-box" id="project2">
+    <div class="box">
+    <a href="https://github.com/samshum90/Cinema_week3_Homework" target="_blank" >
+      <h3>Cinema Booking System</h3>
+        <img id="cinema-app-pic" src="images/cinema_app.png" alt="Image of cinema booking project"/>
+    </img>
+  </div>
+    <div class="pro-des" id="cinema-app-des">
+      <p>This is a weekend homework assignment where I created a system that handles bookings for a cinema.
+        This system has full CRUD functionality with multiple classes.
+        It also includes a backend SQL database which contains one to many and many to many relationships. 
+      </p><br>
+    </p>Technologies used:</p>
+    <ul>
+      <li>Ruby</li>
+      <li>Postgres</li>
+      <li>Pry</li>
+      <li>SQL</li>
+    </ul>
+    </div>
+  </a>
+</div>
+<!--End of second project-->
+
+  <div class="pro-box" id="project3">
+    <div class="box" id="pro-box3">
+    <a href="http://github.com/samshum90/Solo_Ruby_Project_Gym" target="_blank" >
+      <h3>Gym Manager Web App</h3>
+        <img id="gym-manager-pic" src="images/Gym_app.jpg" alt="Image of gym manager project"/>
+    </img>
+  </div>
+    <div class="pro-des" id="gym-app-des">
+      <p>My first full stack ruby app built with a SQL database and sinatra in the front end. 
+        My brief was to build a app to be used in a gym where members can be created, added to a class and assigned an Instructor.
+        My app also included the ablity to upload a picture.   
+      </p><br>
+    <p>Technologies used:</p>
+    <ul>
+      <li>Ruby</li>
+      <li>Sinatra</li>
+      <li>Postico</li>
+      <li>Postgres</li>
+      <li>Pry</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>FontAwesome</li>
+    </ul>
+    </div>
+  </a>
+</div>
+<!--End of Third project-->
+
+  <div class="pro-box" id="project4">
+    <div class="box" id="pro-box4">
+    <a href="https://github.com/samshum90/Vue_API_week7_hw" target="_blank" >
+      <h3>Ghibli API</h3>
+        <img id="ghibli-app-pic" src="images/ghibli_app.png" alt="Image of ghibli project"/>
+      </img>
+  </div>
+    <div class="pro-des" id="ghibli-app-des">
+      <p>Weekend homework where I used a Ghibli API to build a Vue app.
+        Vue's fetch promises, lifecycle hooks, multiple components, props and event bus where used in this app.
+      </p><br>
+    </p>Technologies used:</p>
+    <ul>
+      <li>Vue</li>
+      <li>Javascript</li>
+      <li>Vue-cli</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+    </div>
+  </a>
+</div>
+<!--End of forth project-->
+
+  <div class="pro-box" id="project5">
+    <div class="box" id="pro-box5">
+    <a href="https://github.com/samshum90/Javasctipt_project" target="_blank" >
+      <h3>COVID-19 App</h3>
+        <img id="covid-app-pic" src="images/COVID_App.png" alt="Image of COVID-19 project"/>
+      </img>
+  </div>
+    <div class="pro-des" id="covid-app-des">
+      <p>This is my week long group project where we built a full stack web app that allow user in isolation to make requests for help.
+        Those requests could be viewed in a chart, list or map view which included the function to center the map to your location and view all the requests around you.
+        My main contributions was in the map, styling and UX of the app 
+      </p>
+    </p>Technologies used:</p>
+    <ul>
+      <li>Vue</li>
+      <li>Vue Router</li>
+      <li>Leaflet</li>
+      <li>Mongodb</li>
+      <li>Insomnia</li>
+      <li>Bootstap</li>
+      <li>Google Charts</li>
+      <li>FontAwesome</li>
+    </ul>
+    </div>
+  </a>
+</div>
+<!--End of fifth project-->
 
 
 </div>
@@ -81,6 +186,8 @@
           <li>Git/Github</li>
           <li>Ruby</li>
           <li>TDD</li>
+          <li>Vue</li>
+          <li>Agile</li>
 
         </ul>
     </div>
