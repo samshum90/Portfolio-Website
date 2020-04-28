@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/project.css">
   <link rel="stylesheet" type="text/css" href="css/navbar.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/description.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <!--8c778ac2fd-->
@@ -18,22 +19,19 @@
 <body>
   <main>
       <div class="bg-img" id="home">
-        <img src="images/_A657197.JPG" ></img>
-
+        <img src="Images/A657197.jpg" alt="Header Image"/>
         <div class="header-container" id="navbar">
-          <div class="topnav">
             <h1>Samuel Shum</h1>
             <nav class="nav" id="topnav">
                   <a href="#home">Home</a>
                   <a href="#projects">Project</a>
                   <a href="#about">About</a>
                   <a href="#contact">Contact</a>
-                  <a href="CV Web Development.docx" target="_blank">CV</a>
+                  <a href="software_developer_cv.pdf" target="_blank">CV</a>
                   <a href="javascript:void(0);" class="icon" id="icon">
-                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars" id="bar"></i>
                   </a>
             </nav>
-          </div>
         </div>
       </div>
 
@@ -46,126 +44,171 @@
 
   <div class="pro-box" id="project1">
     <div class="box">
-    <a href="https://github.com/samshum90/pet_shop_homework" target="_blank">
       <h3>Pet Shop</h3>
-        <img id="Pet-shop-gif" src="images/Pet_shop.png" alt="Image of pet shop project"/>
-    </img>
+        <img id="Pet-shop-gif" src="Images/Pet_Shop.png" alt="Image of pet shop project"/>
   </div>
     <div class="pro-des" id="Pet-shop-des">
+      <h4>
+        | Solo Project | 
+        <a href="https://github.com/samshum90/pet_shop_homework" target="_blank">
+          Github
+        </a>
+         |
+      </h4>
       <p>
-        This is my first homework assignment at Code Clan, where we create tests which relate to the functioning of a pet shop.
-        This was used to practise test development methodology using the ruby gem minitest.</p><br>
-      <p>Technologies used:</p>
+        This is my first <b>Ruby</b> homework assignment at Code Clan, where we create tests which relate to the functioning of a pet shop.
+      </p>
       <ul>
-        <li>Ruby</li>
-        <li>Gem</li>
-        <li> MiniTest</li>
+        <li>Test development methodology using the ruby gem minitest.</li>
       </ul>
+      <span class="tech-container">
+        <p>Ruby</p>
+        <p>Gem</p>
+        <p> MiniTest</p>
+      </span>
     </div>
-  </a>
 </div>
 <!--End of first project-->
 
   <div class="pro-box" id="project2">
     <div class="box">
-    <a href="https://github.com/samshum90/Cinema_week3_Homework" target="_blank" >
       <h3>Cinema Booking System</h3>
-        <img id="cinema-app-pic" src="images/cinema_app.png" alt="Image of cinema booking project"/>
-    </img>
+        <img id="cinema-app-pic" src="Images/Cinema_App.png" alt="Image of cinema booking project"/>
   </div>
     <div class="pro-des" id="cinema-app-des">
-      <p>This is a weekend homework assignment where I created a system that handles bookings for a cinema.
-        This system has full CRUD functionality with multiple classes.
-        It also includes a backend SQL database which contains one to many and many to many relationships. 
-      </p><br>
-    </p>Technologies used:</p>
-    <ul>
-      <li>Ruby</li>
-      <li>Postgres</li>
-      <li>Pry</li>
-      <li>SQL</li>
-    </ul>
+      <h4>
+        | Solo Project | 
+        <a href="https://github.com/samshum90/Cinema_week3_Homework" target="_blank" >
+          Github
+        </a>
+         |
+      </h4>
+      <p>
+        This is a weekend homework assignment where I created a system that handles bookings for a cinema.
+      </p>      
+      <ul>
+        <li>Full create, read, update and delete functionality with multiple classes</li>
+        <li>Backend <b>SQL</b> database which contains one to many and many to many relationships.</li>
+      </ul>
+      <span class="tech-container">
+        <p>Ruby</p>
+        <p>Postgres</p>
+        <p>Pry</p>
+        <p>SQL</p>
+      </span>
     </div>
-  </a>
 </div>
 <!--End of second project-->
 
   <div class="pro-box" id="project3">
     <div class="box" id="pro-box3">
-    <a href="http://github.com/samshum90/Solo_Ruby_Project_Gym" target="_blank" >
       <h3>Gym Manager Web App</h3>
-        <img id="gym-manager-pic" src="images/Gym_app.jpg" alt="Image of gym manager project"/>
-    </img>
+        <img id="gym-manager-pic" src="Images/Gym_App.jpg" alt="Image of gym manager project"/>
   </div>
     <div class="pro-des" id="gym-app-des">
-      <p>My first full stack ruby app built with a SQL database and sinatra in the front end. 
-        My brief was to build a app to be used in a gym where members can be created, added to a class and assigned an Instructor.
-        My app also included the ablity to upload a picture.   
-      </p><br>
-    <p>Technologies used:</p>
-    <ul>
-      <li>Ruby</li>
-      <li>Sinatra</li>
-      <li>Postico</li>
-      <li>Postgres</li>
-      <li>Pry</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>FontAwesome</li>
-      <li>Adobe Lightroom</li>
-    </ul>
+      <h4>
+        | Solo Project | 5-days | 
+        <a href="http://github.com/samshum90/Solo_Ruby_Project_Gym" target="_blank" >
+          Github
+        </a>
+         | 
+        <a href="https://gym-master-3000.herokuapp.com/" target="_blank" >
+          Link
+        </a>
+         |
+      </h4>
+      <p>
+        My first full stack <b>Ruby</b> app built with a <b>SQL</b> database and <b>Sinatra</b> in the front end following <b>MVC</b> design.
+        My brief was to build a app to be used in a gym.  
+      </p>
+      <ul>
+        <li><b>CRUD</b> functionality with members, classes and instructors</li>
+        <li>Class bookings are filtered to accept active and the correct type of membership and cannot be assigned twice</li>
+        <li>Pictures can be uploaded to the member profiles</li>
+        <li>Filter the classes to view the classes that have been scheduled for today</li>
+      </ul>
+    <span class="tech-container">
+      <p>Ruby</p>
+      <p>Sinatra</p>
+      <p>Postgres</p>
+      <p>Heroku</p>
+      <p>Pry</p>
+      <p>Postico</p>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>FontAwesome</p>
+      <p>Adobe Lightroom</li>
+    </span>
     </div>
-  </a>
 </div>
 <!--End of Third project-->
 
   <div class="pro-box" id="project4">
     <div class="box" id="pro-box4">
-    <a href="https://github.com/samshum90/Vue_API_week7_hw" target="_blank" >
       <h3>Ghibli API</h3>
-        <img id="ghibli-app-pic" src="images/ghibli_app.png" alt="Image of ghibli project"/>
-      </img>
+        <img id="ghibli-app-pic" src="Images/Ghibli_App.png" alt="Image of ghibli project"/>
   </div>
     <div class="pro-des" id="ghibli-app-des">
-      <p>Weekend homework where I used a Ghibli API to build a Vue app.
-        Vue's fetch promises, lifecycle hooks, multiple components, props and event bus where used in this app.
-      </p><br>
-    </p>Technologies used:</p>
-    <ul>
-      <li>Vue</li>
-      <li>Javascript</li>
-      <li>Vue-cli</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
+      <h4>
+        | Solo Project | 1-day | 
+        <a href="https://github.com/samshum90/Vue_API_week7_hw" target="_blank" >
+          Github
+        </a>
+         |
+      </h4>
+      <p>
+        Weekend homework where I used a Ghibli API to build a <b>Vue</b> app.
+      </p>
+      <ul>
+        <li>Display data from an <b>JSON API</b> request </li>
+        <li>Clear separation of concerns (multiple components)</li>
+        <li>Vue's fetch promises, lifecycle hooks, multiple components, props and event bus</li>
+      </ul>
+    <span class="tech-container">
+      <p>Vue</p>
+      <p>Javascript</p>
+      <p>Vue-cli</p>
+      <p>HTML</p>
+      <p>CSS</p>
+    </span>
     </div>
-  </a>
 </div>
 <!--End of forth project-->
 
   <div class="pro-box" id="project5">
     <div class="box" id="pro-box5">
-    <a href="https://github.com/samshum90/Javasctipt_project" target="_blank" >
-      <h3>COVID-19 App</h3>
-        <img id="covid-app-pic" src="images/COVID_App.png" alt="Image of COVID-19 project"/>
-      </img>
-  </div>
+      <h3>COVID-19 Angela App</h3>
+        <img id="covid-app-pic" src="Images/COVID_App.png" alt="Image of COVID-19 project"/>
+    </div>
     <div class="pro-des" id="covid-app-des">
-      <p>This is my week long group project where we built a full stack web app that allow user in isolation to make requests for help.
-        Those requests could be viewed in a chart, list or map view which included the function to center the map to your location and view all the requests around you.
-        My main contributions was in the map, styling and UX of the app 
-      </p>
-    </p>Technologies used:</p>
-    <ul>
-      <li>Vue</li>
-      <li>Vue Router</li>
-      <li>Leaflet</li>
-      <li>Mongodb</li>
-      <li>Insomnia</li>
-      <li>Bootstap</li>
-      <li>Google Charts</li>
-      <li>FontAwesome</li>
-    </ul>
+      <h4>| Group Project | 5-days | 
+          <a href="https://github.com/samshum90/Javasctipt_project" target="_blank" >
+          Github
+          </a> | 
+          <a href="https://boring-wozniak-c62dd8.netlify.app#/" target="_blank" >
+            Link
+          </a> |
+      </h4>
+      <p>This is my week long group project where we built a full stack web app that allow user in self isolation to make requests for help.
+        My main contributions was in the map, styling and UX.
+      <ul>
+        <li>Add and manage requests on a local <b>JSON API</b></li>
+        <li>Requests viewable in a list or map format by reusing components</li>
+        <li><b>Geolocation API</b> used to locate the current user</li>
+        <li><b>Nominatim API</b> used to obtain geo-coordinates</li>
+        <li><b>Leaflet maps</b> used to place markers for each request so that the user can locate the requests around them</li>
+        <li><b>Google Charts</b>to display the number of requests in each category</li>
+      </ul>
+    <span class="tech-container">
+      <p>Vue</p>
+      <p>Vue Router</p>
+      <p>Leaflet</p>
+      <p>Mongodb</p>
+      <p>Insomnia</p>
+      <p>Bootstap</p>
+      <p>Google Charts</p>
+      <p>Netlify</p>
+    </span>
     </div>
   </a>
 </div>
@@ -178,23 +221,116 @@
 <div class="about-container" id="about">
   <div class="about">
       <h2>About</h2>
-      <p> A CodeClan graduate and former Chemist who decided to take his love of computers to the next level.</br>
-        From building computers, problem solving technical issues to taking all the way down to the coding level.</br>
-        Lanuages and methods I'm familier in:
-        <ul>
-          <li>Agile</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-          <li>Git/Github</li>
-          <li>Ruby</li>
-          <li>Vue</li>
-          <li>SQL</li>
-          <li>Postico</li>
-          <li>Postgres</li>
-          <li>Mongodb</li>
-          <li>Insomnia</li>
-        </ul>
+      <p>
+        Aspiring full-stack software developer who loves having an idea that captures my imagination 
+        and using my love of learning and problem solving to bring that idea from a concept to completion. 
+        A CodeClan graduate and former chemist, pursuing my passion and lifelong love of computers and technology to solve human problems with meaningful digital solutions.
+      </p>
+      <p>
+       Technologies and methods I'm familier in:
+      </p>
+    <span class="about-list">
+      <span>
+        <p>
+          <b>Languages:</b>
+        </p>
+          <ul>
+            <li>Ruby</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Python</li>
+          </ul>
+        </span>
+        <span>
+          <p>
+            <b>Database:</b>
+          </p>
+            <ul>
+              <li>SQL</li>
+              <li>Mongodb</li>
+            </ul>
+        </span>
+        <span>
+          <p>
+            <b>Frameworks:</b>
+          </p>
+            <ul>
+              <li>Sinatra</li>
+              <li>Vue.js</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>Spring</li>
+            </ul>
+        </span>
+        <span>
+          <p>
+            <b>Test Driven<br> Development:</b>
+          </p>
+            <ul>
+              <li>MiniTest</li>
+              <li>Mocha</li>
+              <li>Protractor</li>
+              <li>JUnit</li>
+            </ul>
+        </span>
+        <span>
+         <p>
+            <b>Technologies:</b>
+          </p>
+            <ul>
+              <li>Git/Github</li>
+              <li>Leaflet Maps</li>
+              <li>Google Charts</li>
+              <li>Geolocation API</li>
+              <li>Nominatim API</li>
+            </ul>
+        </span>
+        <span>
+          <p>
+            <b>Skills & Principles:</b>
+          </p>
+            <ul>
+              <li>Agile</li>
+              <li>Object Oriented Programming</li>
+              <li>RESTful APIs</li>
+              <li>UX/UI Designs</li>
+              <li>SOLID Principles</li>
+              <li>Four Pillars of OOP</li>
+            </ul>
+        </span>
+        <span>
+          <p>
+            <b>Systems & Software:</b>
+          </p>
+          <ul>
+            <li>Postico</li>
+            <li>MongoDB Compass</li>
+            <li>Insomnia</li>
+            <li>IntelliJ</li>
+          </ul>
+        </span>
+        <span>
+          <p>
+            <b>Adobe Production Suite:</b>
+          </p>
+            <ul>
+              <li>Lightroom</li>
+              <li>After Effects</li>
+              <li>PhotoShop</li>
+            </ul>
+        </span>
+        <span>
+          <p>
+            <b>Audio & Video Editing:</b>
+          </p>
+          <ul>
+            <li>Sony Vagas</li>
+            <li>Audacity</li>
+          </ul>
+        </span>
+      </span>
     </div>
   </div>
 
@@ -220,7 +356,7 @@
       </div>
 <!--CV-->
       <div class="contact-dot" id="cv">
-      <a href="CV Web Development.docx" target="_blank" class="far fa-file-pdf">
+      <a href="software_developer_cv.pdf" target="_blank" class="far fa-file-pdf">
       </a>
     </div>
     </div>

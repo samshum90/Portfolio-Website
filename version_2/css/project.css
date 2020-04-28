@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 0.5em;
+  grid-gap: 0.3em;
 }
 
 .pro-box {
@@ -21,7 +21,7 @@
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1.1);
-    cursor: pointer;
+    transition: 0.5s;
   }
 
   .box {
@@ -30,6 +30,7 @@
     box-shadow: 2px 4px 2px 2px gray;
     background-color: var(--grey);
     margin-right: 5px;
+    border-radius: 2px;
   }
   
   .box h3 {
@@ -40,6 +41,7 @@
     font-weight: bold;
     padding: 10px;
     justify-content: center;
+    border-radius: 2px;
   }
   
   .box img {
@@ -50,53 +52,75 @@
   }
   
   .pro-des {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     height: 330px;
     position: relative;
     z-index: -10;
+    padding: 5px;
+    background-color: var(--snow);
+    transition: 0.5s;
+    border-radius: 3px;
+  }
+
+  .pro-des h4{
+    padding: 5px ;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 3px;
+    box-shadow: 2px 1px 2px 1px gray;
+    margin: 5px;
+    opacity: 0.9;
+    text-align: center;
+    }
+
+    .pro-des h4 a:hover{
+      color: var(--yellow);
+      /* opacity: 0.8; */
+    }
+
+  .pro-des ul li{
+    color: var(--black);
+    list-style-type: circle;
+    font-weight: 400;
+  }
+  .pro-des p{
+    color: var(--black);
+    padding: 5px 10px;
+    font-weight: 400;
+  }
+  .pro-des ul li b{
+    color: var(--black);
+    list-style-type: circle;
+    font-weight: bold;
+  }
+  .pro-des p b{
+    color: var(--black);
+    font-weight: bold;
   }
   
   .mouseover-right{
     left: 25em;
     position: absolute;
-    color: var(--red);
-    width: 400px;
-    height: 330px;
-    box-shadow: 2px 4px 2px 2px gray;
-    padding: 10px;
-    background-color: var(--snow);
+    box-shadow: 2px 4px 4px 2px gray;
     margin-left: 4em;
-  }
-
-  .mouseover-right ul li{
-    color: var(--red);
-  }
-
-  .mouseover-right p{
-    color: var(--red);
+    transition: 0.5s;
   }
 
   .mouseover-left{
-    left: -26em;
+    right: 24em;
     position: absolute;
-    color: var(--red);
-    width: 400px;
-    height: 330px;
-    box-shadow: 2px 4px 2px 2px gray;
-    padding: 10px;
-    background-color: var(--snow);
+    margin-right: 6em;
+    transition: 0.5s;
+    box-shadow: -2px 4px 4px 2px gray;
   }
 
-  .mouseover-left ul li{
-    color: var(--red);
-  }
-
-  .mouseover-left p{
-    color: var(--red);
-  }
-
-  .under-box{
-    visibility: hidden;
+  .mouseover-over{
+    position: absolute;
+    z-index: 200;
+    transition: 0.5s;
+    box-shadow: 2px 4px 4px 2px gray;
   }
 
   #pro-box3{
@@ -107,4 +131,17 @@
   }
   #pro-box5{
     background-color: white;
+  }
+
+  #gym-app-des p{ 
+    font-size: small;
+  }
+  #gym-app-des ul li{ 
+    font-size: small;
+  }
+  #covid-app-des p{ 
+    font-size: small;
+  }
+  #covid-app-des ul li{ 
+    font-size: small;
   }

@@ -2,7 +2,7 @@
     .pro-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-gap: 1em;
     }
 
@@ -11,6 +11,7 @@
 @media screen and (max-width: 600px) {
     .nav a {
         display: none;
+        /* border: solid var(--raisinblack) 2px; */
     }
     .nav a.icon {
       float: right;
@@ -18,36 +19,45 @@
       /* flex-direction: column; */
       font-size: 1.5em;
     }
+    .sticky #bar{
+      color: var(--raisinblack);
+      opacity: 0.8;
+    }
     .pro-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-gap: 1em;
     }
   }
   
   @media screen and (max-width: 600px) {
     .nav.responsive {
-    position: relative;
-    width: 50%;
-    background-color: var(--grey);
-    border-radius: 6px;
-    padding: 45px 2px 8px 2px;
-    border: solid rgba(255, 255, 255, 1) 2px;
-    justify-content: space-evenly;
+      position: absolute;
+      width: 85%;
+      /* background-color: var(--grey); */
+      border-radius: 6px;
+      padding: 45px 2px 8px 2px;
+      /* border: solid rgba(255, 255, 255, 1) 2px; */
+      justify-content: space-evenly;
     }
     .nav.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
+    .nav.responsive #bar {
+      color: var(--raisinblack);
+    }
     .nav.responsive a {
-    display: flex;
-    flex-direction: column;
+      display: flex;
+      flex-direction: column;
       float: none;
       text-align: left;
-      color: black;
+      color: var(--raisinblack);
       text-align: center;
-      margin-bottom: 5px;
+      /* margin-bottom: 5px; */
+      background-color: var(--snow); 
+      border: solid var(--silver) 2px;
     }
   }
