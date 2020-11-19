@@ -1,0 +1,23 @@
+.tech-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.tech-container p{
+padding: 5px 10px;
+background-color: var(--red);
+color: var(--white);
+border-radius: 5px;
+box-shadow: 2px 1px 2px 1px gray;
+margin: 5px;
+}
+
+
+.dropdown{
+  position: relative;
+  top: 0px;
+  z-index: 2000;
+  transition: 8s;
+}

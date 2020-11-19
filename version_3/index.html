@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Samuel Shum </title>
+  <meta charset="utf-8">
+  <meta name="author" content="Samuel Shum">
+  <meta name="title" property="og:title" content="Samuel Shum's Portfolio Website">
+  <meta name="image" property="og:image" content="https://samshum90.github.io/Images/og_image.jpg">
+  <meta name="image" property="og:image" content="require('./Images/og_image.jpg')">
+  <meta name="description" property="og:description"
+    content="My first portfolio website to show potential employers the projects I have been working on and the Technologies, skills and methods I have been learning and putting into practise">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/project.css">
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/description.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--8c778ac2fd-->
+  <script src="https://kit.fontawesome.com/8c778ac2fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+    <div class="bg-img" id="home">
+      <img src="Images/banner_image.jpg" alt="Header Image" />
+      <div class="header-container" id="navbar">
+        <h1>Samuel Shum</h1>
+        <nav class="nav" id="topnav">
+          <a href="#home">Home</a>
+          <a href="#projects">Project</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="SamuelShumCv.pdf" target="_blank">CV</a>
+          <a href="javascript:void(0);" class="icon" id="icon">
+            <i class="fa fa-bars" id="bar"></i>
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="pro-banner" id="projects">
+      <h2>Projects</h2>
+    </div>
+    <!--End of project Banner-->
+
+    <div class="pro-container">
+
+      <div class="pro-box" id="project1">
+        <div class="box" id="pro-box1">
+          <h3>Pet Shop
+            |
+          </h3>
+          <img id="Pet-shop-gif" src="Images/Pet_Shop.png" alt="Image of pet shop project" />
+
+          <h4>
+            |
+            <a href="https://github.com/samshum90/WK1_WKend_HW_Pet_Shop_Ruby" target="_blank">
+              Github
+            </a>
+            |
+          </h4>
+        </div>
+        <div class="pro-des" id="Pet-shop-des">
+          <h4>
+            | Solo Homework |
+          </h4>
+          <p>
+            This is my first Weekend homework assignment at Codeclan after one week of learning to code with first
+            lanuage I've ever coded with <b>Ruby</b>.
+            Our brief was to create tests which relate to the functioning of a pet shop.
+          </p>
+          <ul>
+            <li>Test development methodology using the ruby gem <b>minitest</b></li>
+          </ul>
+          <span class="tech-container">
+            <p>Ruby</p>
+            <p>Gem</p>
+            <p> MiniTest</p>
+          </span>
+        </div>
+
+      </div>
+      <!--End of first project-->
+
+      <div class="pro-box" id="project2">
+        <div class="box" id="pro-box2">
+          <h3>Cinema Booking System</h3>
+          <img id="cinema-app-pic" src="Images/Cinema_App.png" alt="Image of cinema booking project" />
+          <h4>
+            |
+            <a href="https://github.com/samshum90/Wk3_Wkend_Hw_Cinema_Ruby" target="_blank">
+              Github
+            </a>
+            |
+          </h4>
+        </div>
+        <div class="pro-des" id="cinema-app-des">
+          <h4>
+            | Solo Homework |
+          </h4>
+          <p>
+            A weekend homework assignment 2 weeks into learning <b>Ruby</b> and <b>SQL</b>, where I created a system
+            that handles bookings for a cinema.
+          </p>
+          <ul>
+            <li>Full create, read, update and delete functionality with multiple classes</li>
+            <li>Backend <b>SQL</b> database which contains one to many and many to many relationships.</li>
+          </ul>
+          <span class="tech-container">
+            <p>Ruby</p>
+            <p>Postgres</p>
+            <p>Pry</p>
+            <p>SQL</p>
+          </span>
+        </div>
+      </div>
+      <!--End of second project-->
+
+      <div class="pro-box" id="project3">
+        <div class="box" id="pro-box3">
+          <h3>Gym Manager Web App</h3>
+          <img id="gym-manager-pic" src="Images/Gym_App.jpg" alt="Image of gym manager project" />
+          <h4>
+            |
+            <a href="http://github.com/samshum90/Solo_Ruby_Project_Gym" target="_blank">
+              Github
+            </a>
+            |
+            <a href="https://gym-master-3000.herokuapp.com/" target="_blank">
+              Link
+            </a>
+            |
+          </h4>
+        </div>
+        <div class="pro-des" id="gym-app-des">
+          <h4>
+            | Solo Project | 5-days |
+          </h4>
+          <p>
+            My first full stack <b>Ruby</b> app 4 weeks into Codeclan. Built with a <b>SQL</b> database and
+            <b>Sinatra</b> in the front end following <b>MVC</b> design.
+            My brief was to build a app to be used in a gym.
+          </p>
+          <ul>
+            <li><b>CRUD</b> functionality with members, classes and instructors</li>
+            <li>Class bookings are filtered to accept active and the correct type of membership and cannot be assigned
+              twice</li>
+            <li>Pictures can be uploaded to the member profiles</li>
+            <li>Filter the classes to view the classes that have been scheduled for today</li>
+          </ul>
+          <span class="tech-container">
+            <p>Ruby</p>
+            <p>Sinatra</p>
+            <p>Postgres</p>
+            <p>Heroku</p>
+            <p>Pry</p>
+            <p>Postico</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>FontAwesome</p>
+            <p>Adobe Lightroom</li>
+          </span>
+        </div>
+      </div>
+      <!--End of Third project-->
+
+      <div class="pro-box" id="project4">
+        <div class="box" id="pro-box4">
+          <h3>Ghibli API</h3>
+          <img id="ghibli-app-pic" src="Images/Ghibli_App.png" alt="Image of ghibli project" />
+          <h4>
+            |
+            <a href="https://github.com/samshum90/Wk7_Wkend_Hw_Ghilbli_Vue_API" target="_blank">
+              Github
+            </a>
+            |
+          </h4>
+        </div>
+        <div class="pro-des" id="ghibli-app-des">
+          <h4>
+            | Solo Project | 1-day |
+          </h4>
+          <p>
+            Weekend homework two weeks into learning <b>JavaScript</b> and <b>Vue.js</b> at Codeclan.
+            Where I used a Ghibli API to build a <b>Vue</b> app.
+          </p>
+          <ul>
+            <li>Display data from an <b>JSON API</b> request </li>
+            <li>Clear separation of concerns (multiple components)</li>
+            <li>Vue's fetch promises, lifecycle hooks, multiple components, props and event bus</li>
+          </ul>
+          <span class="tech-container">
+            <p>Vue</p>
+            <p>Javascript</p>
+            <p>Vue-cli</p>
+            <p>HTML</p>
+            <p>CSS</p>
+          </span>
+        </div>
+      </div>
+      <!--End of forth project-->
+
+      <div class="pro-box" id="project5">
+        <div class="box" id="pro-box5">
+          <h3>COVID-19 Angela App</h3>
+          <img id="covid-app-pic" src="Images/COVID_App.png" alt="Image of COVID-19 project" />
+          <h4>
+            |
+            <a href="https://github.com/samshum90/Javasctipt_project" target="_blank">
+              Github
+            </a> |
+            <a href="https://boring-wozniak-c62dd8.netlify.app#/" target="_blank">
+              Link
+            </a> |
+          </h4>
+        </div>
+        <div class="pro-des" id="covid-app-des">
+          <h4>
+            | Group Project | 5-days |
+          </h4>
+          <p>This is my week long group project where we built a full stack web app that allow user in self isolation to
+            make requests for help.
+            My main contributions was in the map, styling and UX.
+          </p>
+          <ul>
+            <li>Add and manage requests on a local <b>JSON API</b></li>
+            <li>Requests viewable in a list or map format by reusing components</li>
+            <li><b>Geolocation API</b> used to locate the current user</li>
+            <li><b>Nominatim API</b> used to obtain geo-coordinates</li>
+            <li><b>Leaflet maps</b> used to place markers for each request so that the user can locate the requests
+              around them</li>
+            <li><b>Google Charts</b>to display the number of requests in each category</li>
+          </ul>
+          <span class="tech-container">
+            <p>Vue</p>
+            <p>Vue Router</p>
+            <p>Leaflet</p>
+            <p>Mongodb</p>
+            <p>Insomnia</p>
+            <p>Bootstrap</p>
+            <p>Google Charts</p>
+            <p>Netlify</p>
+          </span>
+        </div>
+        </a>
+      </div>
+      <!--End of fifth project-->
+
+      <div class="pro-box" id="project6">
+        <div class="box" id="pro-box6">
+          <h3>Blackjack Game</h3>
+          <img id="blackjack-game-pic" src="Images/blackjack.png" alt="Image of Blackjack Game" />
+          <h4> |
+            <a href="https://github.com/samshum90/Wk11_Wkend_HW_Java_Blackjack" target="_blank">
+              Github
+            </a> |
+          </h4>
+        </div>
+        <div class="pro-des" id="blackjack-des">
+          <h4>| Solo Homework | 1-day |
+          </h4>
+          <p>This is my weekend homework after my first week of <b>Java</b> at Codeclan.
+            My brief was to build a Blackjack game.
+          </p>
+          <ul>
+            <li>Includes a runner to make a fully interactive text game</li>
+            <li>Multiplayer support with name input</li>
+            <li>Computer dealer opponent to play against</li>
+            <li>Built using Test Driven Development with <b>JUnit</b></li>
+          </ul>
+          <span class="tech-container">
+            <p>Java</p>
+            <p>JUnit</p>
+          </span>
+        </div>
+        </a>
+      </div>
+      <!--End of sixth project-->
+
+      <div class="pro-box" id="project7">
+        <div class="box" id="pro-box7">
+          <h3>Fantasy Adventure</h3>
+          <img id="fantasy-adventure-pic" src="Images/fantasy-adventure.png" alt="Image of Fantasy Adventure project" />
+          <h4>|
+            <a href="https://github.com/samshum90/Wk12_Wkend_Hw_Fantasy_Adventure" target="_blank">
+              Github
+            </a> |
+          </h4>
+        </div>
+        <div class="pro-des" id="fantasy-adventure-des">
+          <h4>| Solo Homework | 1-day |
+          </h4>
+          <p>Weekend homework in <b>Java</b> where the task is to model a fantasy adventure to consolidate our learning
+            of the four principles of object orientated programming
+            <b>Abstraction, Encapsulation, Inheritance and Polymorphism</b>.
+          </p>
+          <ul>
+            <li>Includes a runner to make a fully interactive text game</li>
+            <li>Multiplayer support with name input and choice of up to 7 characters</li>
+            <li>Multiple actions to choose from such as casting spells and healing</li>
+            <li>Randomly generated enemies with randomly generated stats and actions</li>
+            <li>Increasing difficulty</li>
+          </ul>
+          <span class="tech-container">
+            <p>Java</p>
+            <p>JUnit</p>
+          </span>
+        </div>
+        </a>
+      </div>
+      <!--End of seventh project-->
+
+      <div class="pro-box" id="project8">
+        <div class="box" id="pro-box8">
+          <h3>Our Shop Best Shop</h3>
+          <img id="shop-pic" src="Images/shop.png" alt="Image of Shop App" />
+          <h4>|
+            <a href="https://github.com/samshum90/Final_Group_Project_Store" target="_blank">
+              Github
+            </a> |
+            <a href="https://codeclan-shop.web.app/" target="_blank">
+              Link
+            </a> |
+          </h4>
+        </div>
+        <div class="pro-des" id="shop-des">
+          <h4>| Group Project | 5-day |
+          </h4>
+          <p>Full-stack e commerce store built in <b>React</b> as the frontend and <b>Spring Boot</b> with a
+            <b>MongoDB</b> database in the backend
+            Codeclan merchandise was used as a prototype.
+          </p>
+          <ul>
+            <li>Store authentication using <b>JSON Web Tokens</b></li>
+            <li><b>Spring Security</b> to secure Backend</li>
+            <li><b>React Router</b> secure routes</li>
+            <li>Separated Owner panel and functions</li>
+            <li>Full search and filter capabilities</li>
+            <li>Basket saved on log in/out</li>
+            <li>Customer services chat window</li>
+            <li><b>Stripe</b> was used to process payments</li>
+            <li><b>Semantic UI</b> used for styling</li>
+          </ul>
+          <span class="tech-container">
+            <p>React</p>
+            <p>React Router</p>
+            <p>Spring Boot</p>
+            <p>Spring Security</p>
+            <p>JWT</p>
+            <p>Stripe</p>
+            <p>Semantic UI</p>
+          </span>
+        </div>
+        </a>
+      </div>
+      <!--End of eigth project-->
+
+      <div class="pro-box" id="project9">
+        <div class="box" id="pro-box9">
+          <h3>Dis-cretion</h3>
+          <img id="dis-cretion-pic" src="Images/dis-cretion.png" alt="Image of Dis-cretion App" />
+          <h4>|
+            <a href="https://github.com/samshum90/Dis-cretion" target="_blank">
+              Github
+            </a> |
+            <a href="https://dis-cretion.herokuapp.com/" target="_blank">
+              Link
+            </a> |
+            <a href="https://devpost.com/software/dis-cretion-cnhlfw" target="_blank">
+              DevPost
+            </a> |
+          </h4>
+        </div>
+        <div class="pro-des" id="dis-cretion-des">
+          <h4>| Group Project | Month Long Side Project |
+
+          </h4>
+          <p>
+            Month long hackathon called Automation Anywhere COVID-19 Botathon I took part in while I was in my last
+            month of Codeclan.
+            We built a tool to empower staff to make informed decisions on employee requests.
+          </p>
+          <ul>
+            <li><b>Vue</b> was used in the frontend and <b>Python</b> with <b>Flask</b> framework used on backend</li>
+            <li><b>Machine Learning</b> used to presents specific policy information that is relevant to the request
+            </li>
+            <li>Automation Anywhere Email bot is triggered to send a customised update on behalf of the manager to the
+              individual.</li>
+          </ul>
+          <span class="tech-container">
+            <p>Vue</p>
+            <p>Python</p>
+            <p>Flask</p>
+            <p>Vuetify</p>
+          </span>
+        </div>
+        </a>
+      </div>
+      <!--End of ninth project-->
+
+      <div class="pro-box" id="project10">
+        <div class="box" id="pro-box10">
+          <h3>Tic-Tac-Toe</h3>
+          <img id="tictactoe-pic" src="Images/TicTacToe.png" alt="Image of TicTacToe game" />
+          <h4>|
+            <a href="https://github.com/samshum90/TicTakToe_C" target="_blank">
+              Github
+            </a> |
+
+          </h4>
+        </div>
+        <div class="pro-des" id="tictactoe-des">
+          <h4>
+            | Solo Exercise |
+          </h4>
+          <p>
+            Game I made after completing C Programming For Beginners - Master the C Language Udemy Tim Buchalka’s Learn
+            Programming Academy, Jason Fedin
+            Done to build a solid fondation to other lanuages like Python, Java Golang and Dart
+          </p>
+          <ul>
+            <li>2-Player</li>
+          </ul>
+          <span class="tech-container">
+            <p>C</p>
+          </span>
+        </div>
+        </a>
+      </div>
+      <!--End of tenth project-->
+
+      <div class="pro-box" id="project11">
+        <div class="box" id="pro-box11">
+          <h3>Hotel Technika</h3>
+          <img id="hotel_technika-pic" src="Images/Hotel_Technika.png" alt="Image of Hotel Technika App" />
+          <h4>|
+            <a href="https://github.com/samshum90/Hotel_Technika_React_Redux_Firebase" target="_blank">
+              Github
+            </a> |
+            <a href="https://hotel-technika.web.app/" target="_blank">
+              Link
+            </a> |
+          </h4>
+        </div>
+        <div class="pro-des" id="hotel_technika-des">
+          <h4>
+            | Solo Project |
+          </h4>
+          <p>
+            This Hotel management app was built to update and build familiarity with <b>React 16.8</b>. Designed to be
+            used by hotel staff member to create rooms, register guests and to book guest into those rooms.
+          </p>
+          <ul>
+            <li><b>Firebase Realtime Database</b> used as a backend</li>
+            <li>Features <b>Firebase</b> authentication</li>
+            <li><b>Redux</b> store for state management</li>
+            <li>Fully built with modern React features such as <b>hooks</b>, useState, useEffects, useSelector and
+              useDispatch </li>
+          </ul>
+          <span class="tech-container">
+            <p>React</p>
+            <p>Material UI</p>
+            <p>Firebase</p>
+            <p>Redux</p>
+          </span>
+        </div>
+        </a>
+      </div>
+      <!--End of eleventh project-->
+
+      <div class="pro-box" id="project12">
+        <div class="box" id="pro-box12">
+          <h3>Recipe Book</h3>
+          <img id="recipe_book-pic" src="Images/Recipe_Book.png" alt="Image of Recipe Book App" />
+          <h4>|
+            <a href="https://github.com/samshum90/Angular_Recipe_Project" target="_blank">
+              Github
+            </a> |
+            <a href="https://angularrecipe-5668c.web.app/" target="_blank">
+              Link
+            </a> |
+          </h4>
+        </div>
+        <div class="pro-des" id="recipe_book-des">
+          <h4>
+            | Solo Project |
+          </h4>
+          <p>
+            App built during Angular - The Complete Guide (2020 Edition) by Maximilian Schwarzmüller course. App used to
+            save recipes and also build an shopping list.
+          </p>
+          <ul>
+            <li><b>Firebase Realtime Database</b> used as a backend</li>
+            <li>Features <b>Firebase</b> authentication</li>
+            <li><b>RxJs</b> internally to handle asynchronous operations</li>
+            <li><b>NgRx</b> for reactive state management</li>
+          </ul>
+          <span class="tech-container">
+            <p>Angular</p>
+            <p>Typescript</p>
+            <p>Firebase</p>
+            <p>Redux</p>
+            <p>Bootstrap</p>
+          </span>
+        </div>
+        </a>
+      </div>
+      <!--End of twelfth project-->
+
+
+    </div>
+    <!--End Of Project-->
+
+    <div class="about-container" id="about">
+      <div class="about">
+        <h2>About</h2>
+        <p>
+          Aspiring full-stack software developer who loves having an idea that captures my imagination
+          and using my love of learning and problem solving to bring that idea from a concept to completion.
+          Follow my learning journey from a Codeclan boot camp graduate and former chemist, pursuing my passion and
+          lifelong love of computers and technology to
+          solve human problems with meaningful digital solutions.
+        </p>
+        <p>
+          Technologies and methods I'm familiar in:
+        </p>
+        <div class="about-list">
+          <span>
+            <p>
+              <b>Languages:</b>
+            </p>
+            <ul>
+              <li>Ruby</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Python</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>Database:</b>
+            </p>
+            <ul>
+              <li>SQL</li>
+              <li>Mongodb</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>Frameworks:</b>
+            </p>
+            <ul>
+              <li>Sinatra</li>
+              <li>Vue.js</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>Spring</li>
+              <li>Flask</li>
+              <li>DJango</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>Test Driven<br> Development:</b>
+            </p>
+            <ul>
+              <li>MiniTest</li>
+              <li>Mocha</li>
+              <li>Protractor</li>
+              <li>Jest</li>
+              <li>JUnit</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>Technologies:</b>
+            </p>
+            <ul>
+              <li>Git/Github</li>
+              <li>Leaflet Maps</li>
+              <li>Google Charts</li>
+              <li>Geolocation API</li>
+              <li>Nominatim API</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>Skills & Principles:</b>
+            </p>
+            <ul>
+              <li>Agile</li>
+              <li>Object Oriented Programming</li>
+              <li>RESTful APIs</li>
+              <li>UX/UI Designs</li>
+              <li>SOLID Principles</li>
+              <li>Four Pillars of OOP</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>Systems & Software:</b>
+            </p>
+            <ul>
+              <li>Postico</li>
+              <li>MongoDB Compass</li>
+              <li>Insomnia</li>
+              <li>IntelliJ</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>Adobe Production Suite:</b>
+            </p>
+            <ul>
+              <li>Lightroom</li>
+              <li>After Effects</li>
+              <li>PhotoShop</li>
+              <li>XD</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>Audio & Video Editing:</b>
+            </p>
+            <ul>
+              <li>Sony Vagas</li>
+              <li>Audacity</li>
+            </ul>
+          </span>
+          <span>
+            <p>
+              <b>UX/UI Design:</b>
+            </p>
+            <ul>
+              <li>UML</li>
+              <li>Proto-Persona</li>
+              <li>Case/Class/Object Diagrams</li>
+              <li>Wireframe</li>
+            </ul>
+          </span>
+          </span>
+        </div>
+        <h4>
+          GitHub for this website here: <a href="https://github.com/samshum90/samshum90.github.io">Link</a>
+        </h4>
+      </div>
+    </div>
+
+    <!--End Of About Me-->
+
+    <div class="contact-container" id="contact">
+      <div class="contact">
+        <h2>Contact</h2>
+        <!--Github-->
+        <div class="contact-dot" id="github">
+          <a href="https://github.com/samshum90" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!--Linkedin-->
+        <div class="contact-dot" id="linkedin">
+          <a href="https://www.linkedin.com/in/samuel-shum-291933176/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <!--Email-->
+        <div class="contact-dot" id="contact">
+          <a href="mailto:samshum90@gmail.com" target="_blank" class="far fa-envelope"><a />
+        </div>
+        <!--CV-->
+        <div class="contact-dot" id="cv">
+          <a href="SamuelShumCv.pdf" target="_blank" class="far fa-file-pdf"></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/App.js"></script>
+
+</body>
+
+</html>
