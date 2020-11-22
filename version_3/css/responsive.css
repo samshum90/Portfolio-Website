@@ -2,7 +2,7 @@
   .pro-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-gap: 1em;
   }
 
@@ -108,7 +108,7 @@
     position: relative;
     width: 96vw;
     height: auto;
-    min-height: 39vh;
+    min-height: 30vh;
     max-height: 80vh;
     border-radius: 0;
     text-align: center;

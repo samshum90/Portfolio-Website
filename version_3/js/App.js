@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectTen = document.querySelector("#project10");
   const projectEleven = document.querySelector("#project11");
   const projectTwelfth = document.querySelector("#project12");
+  const projectThirteen = document.querySelector("#project13");
 
   const proBoxOne = document.querySelector("#pro-box1");
   const proBoxTwo = document.querySelector("#pro-box2");
@@ -43,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const proBoxTen = document.querySelector("#pro-box10");
   const proBoxEleven = document.querySelector("#pro-box11");
   const proBoxTwelfth = document.querySelector("#pro-box12");
+  const proBoxThirteen = document.querySelector("#pro-box13");
 
   const mediumScreen = window.matchMedia(
     "(min-width: 900px) and (max-width: 1350px)"
@@ -272,6 +274,23 @@ document.addEventListener("DOMContentLoaded", () => {
     recipeGif.src = "Images/Recipe_Book.png";
     recipeDes.classList.remove("mouseover-left", "mouseover-right");
     projectTwelfth.style.zIndex = "0";
+  });
+
+  const spendItGif = document.querySelector("#spend_it-pic");
+  const spendItDes = document.querySelector("#spend_it-des");
+  projectThirteen.addEventListener("mouseover", () => {
+    if (!smallScreen.matches) {
+      spendItDes.classList.add("mouseover-right");
+      projectThirteen.style.zIndex = "100";
+    }
+    // projectThirteen.style.backgroundColor = "#363B50";
+    spendItGif.src = "Images/Spend_It.gif";
+  });
+  projectThirteen.addEventListener("mouseout", () => {
+    // proBoxSeven.style.backgroundColor = "#1A2137";
+    spendItGif.src = "Images/Spend_It.png";
+    spendItDes.classList.remove("mouseover-right");
+    projectThirteen.style.zIndex = "0";
   });
 
   //Responsive navbar
